@@ -7,14 +7,66 @@ h1 {
     font-family: 'Alice', Arial, Helvetica, sans-serif;
     font-size: x-large;
     font-weight: bold;
-    color: #3F5E8A;
+    color: #5D5D5D;
+}
+
+#sub ul {
+    list-style-type: none;
+    padding: 1em 0;
+    margin-top: -9px;
+    background-color: #9C9C9C;
+    border-top: 3px double #fff;
+	margin-bottom: -9px;
+}
+
+#sub ul li {
+    margin: 0;
+    padding: 0 1em 0 1em;
+    display: inline;
+    border-right: 1px solid #fff;
+}
+
+#sub ul li.last {
+    border: 0;
+}
+
+a img {
+    border: 0;
+}
+
+#sub ul li a:visited,
+#sub ul li a {
+    color: #F5F5F5;
+    font-family: 'Alice', sans-serif;
+    font-variant: small-caps;
+}
+
+#sub-info {
+    font-size: small;
+    padding: 1em;
+    margin-top: -9px;
+    background-color: #7C7C7C;
+    color: #D7D7D7;
+    border-top: 3px double #fff;
+	margin-bottom: -0px;
+	    font-weight: bold;
+}
+
+#sub-info p {
+    border: 0px;
+    margin: 0px;
+}
+
+#sub-info span {
+    font-family: 'Alice', sans-serif;
+	    font-weight: bold;
 }
 
 #menu ul {
     list-style-type: none;
     padding: 1em 0;
     margin-top: -19px;
-    background-color: #3F5E8A;
+    background-color: #9C9C9C;
     border-top: 3px double #fff;
 }
 
@@ -35,7 +87,7 @@ a img {
 
 #menu ul li a:visited,
 #menu ul li a {
-    color: #fff;
+    color: #F5F5F5;
     font-family: 'Alice', sans-serif;
     font-variant: small-caps;
 }
@@ -44,8 +96,8 @@ a img {
     font-size: small;
     padding: 1em;
     margin-top: -19px;
-    background-color: #DF3A01;
-    color: white;
+    background-color: #7C7C7C;
+    color: #D7D7D7;
     border-top: 3px double #fff;
 }
 
@@ -55,7 +107,7 @@ a img {
 }
 
 #source-info span {
-    font-family: Courier;
+    font-family: 'Alice', sans-serif;
 }
 
 #content ul {
@@ -88,6 +140,14 @@ a img {
 }
 
 #content ul li.syno-model {
+    float: left;
+    display: block;
+    width: 200px;
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+#content ul li.pat {
     float: left;
     display: block;
     width: 200px;
@@ -143,6 +203,7 @@ hr {
 
 #footer {
     font-size: smaller;
+	color: #5D5D5D;
 }
 
 @font-face {
